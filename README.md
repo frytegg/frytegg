@@ -44,10 +44,3 @@ Next steps: migrate to new 5-minute BTC Up/Down markets, finalize market making 
 | [blackjack-strategy-studio](https://github.com/frytegg/blackjack-strategy-studio) | Optimal blackjack strategy table generator with rules-aware engine | Python, React |
 | [ask-starknet-bot](https://github.com/frytegg/ask-starknet-bot) | Starknet Q&A bots for Telegram, Discord, and X using LangGraph + MCP | Python |
 | [rust-port-scanner](https://github.com/frytegg/rust-port-scanner) | Multi-threaded TCP port scanner | Rust |
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=frytegg&show_icons=true&theme=default&hide_border=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=frytegg&layout=compact&hide_border=true&langs_count=8" height="165" />
-</p>
