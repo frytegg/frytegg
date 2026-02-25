@@ -31,7 +31,7 @@ Next steps: migrate to new 5-minute BTC Up/Down markets, finalize market making 
 
 | Project | Event | Result | Description |
 |---------|-------|--------|-------------|
-| [agentfi](https://github.com/frytegg/agentfi) | **ETHDenver 2026** | **2nd place** — 0G Best DeFAI | Multi-chain marketplace for autonomous AI agents as iNFTs (ERC-7857), with payments on ADI Chain and orchestration via Hedera |
+| [agentfi](https://github.com/frytegg/agentfi) | **ETHDenver 2026** | **2nd place** — 0G Best DeFAI, **3rd place** - ADI Chain | Multi-chain marketplace for autonomous AI agents as iNFTs (ERC-7857), with payments on ADI Chain and orchestration via Hedera |
 | [sui-shield](https://github.com/frytegg/sui-shield) | EPFL SUI 2025 | | Decentralized gas fee insurance marketplace on Sui |
 | [spark-base](https://github.com/frytegg/spark-base) | Base Batches 2025 | | Competitive on-chain mini-games with ARK token rewards |
 | [tokena](https://github.com/frytegg/tokena) | XRPL Rome 2025 | **4th place** | XRPL multi-party token issuance & management |
