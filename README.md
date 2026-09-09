@@ -32,23 +32,19 @@ Fintech engineering student at [ESILV](https://www.esilv.fr/) (Paris) — buildi
 ![Foundry](https://img.shields.io/badge/-Foundry-1C1C1C?style=flat&logo=ethereum&logoColor=white)
 ![Tokio](https://img.shields.io/badge/-Tokio-000000?style=flat&logo=rust&logoColor=white)
 
-## Current project
+## Current projects
 
-**Polymarket BTC Binary Options Trading System** (private repos)
+**Cross-venue sports/prediction-market arbitrage bot** (private repo)
 
-Hybrid algorithmic trading system for Polymarket's BTC Up/Down binary options, combining Black-Scholes pricing with real-time Binance/Chainlink oracle feeds. Two strategy implementations:
-- **Taker mode** — exploits pricing lag between Binance and Polymarket via Fill-and-Kill orders
-- **Market making** — Avellaneda-Stoikov model with adverse selection risk management
+Arbitrage engine spanning Polymarket (CLOB, Polygon), Azuro V3 (LP-backed vAMM, Polygon/Gnosis) and Overtime V2 (AMM, Optimism/Arbitrum/Base) — detects opportunities where the net edge after every friction (venue fees, size-aware slippage, gas, staleness, basis risk) is positive across two venues quoting the same event. Currently in a read-only observability phase: no execution code exists yet and the process holds no keys, by design, while a multi-week capture window runs to validate the edge before any capital is at risk.
 
-Next steps: migrate to new 5-minute BTC Up/Down markets, finalize market making with lateral perp hedging.
-
-## Hackathon projects
+## Featured projects
 
 | Project | Event | Result | Description |
 |---------|-------|--------|-------------|
 | [agentfi](https://github.com/BuzzBallz/agentfi) | **ETHDenver 2026** | **2nd place** — 0G Best DeFAI, **3rd place** - ADI Chain | Multi-chain marketplace for autonomous AI agents as iNFTs (ERC-7857), with payments on ADI Chain and orchestration via Hedera |
+| [inflexion](https://github.com/frytegg/inflexion) | — | — | Trustless, fully-collateralized on-chain market for Uniswap v3 impermanent-loss risk. Fair value priced on-chain via a closed-form Arbitrum Stylus (Rust) oracle; a cvAMM floor and competing market makers route to whichever is cheaper. Full stack: contracts, SDK, REST API, subgraph, frontend. My most-developed solo project — didn't come out of a hackathon, but the one with the most real design work behind it. |
 | [sui-shield](https://github.com/frytegg/sui-shield) | EPFL SUI 2025 | | Decentralized gas fee insurance marketplace on Sui |
-| [spark-base](https://github.com/frytegg/spark-base) | Base Batches 2025 | | Competitive on-chain mini-games with ARK token rewards |
 | [tokena](https://github.com/frytegg/tokena) | XRPL Rome 2025 | **4th place** | XRPL multi-party token issuance & management |
 
 ## Other projects
@@ -56,8 +52,9 @@ Next steps: migrate to new 5-minute BTC Up/Down markets, finalize market making 
 | Project | Description | Stack |
 |---------|-------------|-------|
 | [crypto-portfolio-management](https://github.com/frytegg/crypto-portfolio-management) | Multi-strategy crypto portfolio optimization dashboard — 7 allocation strategies, GJR-GARCH volatility, HMM regime detection, on-chain signals, walk-forward backtesting, real-time Binance prices | Python, Plotly Dash |
-| [inflexion](https://github.com/frytegg/inflexion) | Trustless, fully-collateralized on-chain market for Uniswap v3 impermanent-loss risk | Solidity, Stylus (Rust), Arbitrum |
 | [funding-engine](https://github.com/frytegg/funding-engine) | Delta-neutral funding rate arbitrage across CEX/DEX (Bybit, Hyperliquid) | TypeScript |
+| Polymarket BTC Up/Down trading system *(private)* | Hybrid algorithmic trading system for Polymarket's BTC Up/Down binary options — Black-Scholes fair value vs. Binance/Chainlink feeds; taker mode (Fill-and-Kill) and market making (Avellaneda-Stoikov) | TypeScript |
+| [spark-base](https://github.com/frytegg/spark-base) | Competitive on-chain mini-games platform on Base — players earn ARK tokens, stakes escrowed on-chain (Base Batches 2025 Hackathon) | Solidity, Node.js, React |
 | [blackjack-strategy-studio](https://github.com/frytegg/blackjack-strategy-studio) | Optimal blackjack strategy table generator with rules-aware engine | Python, React |
 | [ask-starknet-bot](https://github.com/frytegg/ask-starknet-bot) | Starknet Q&A bots for Telegram, Discord, and X using LangGraph + MCP | Python |
 | [rust-port-scanner](https://github.com/frytegg/rust-port-scanner) | Multi-threaded TCP port scanner | Rust |
