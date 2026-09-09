@@ -1,8 +1,18 @@
 # Alexandre Lemiere
 
-Fintech engineering student at [ESILV](https://www.esilv.fr/) (Paris) — building trading systems, DeFi protocols, and on-chain applications.
+Fintech engineering student at [ESILV](https://www.esilv.fr/) (Paris) — building trading systems, DeFi protocols, on-chain applications, and quantitative research on DeFi risk.
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/alexandre-lemiere)
+
+## Research
+
+**[DeFi Peg Failure & Tracking Error — a research portfolio](https://frytegg.github.io/defi-depeg-research/)** ([repo](https://github.com/frytegg/defi-depeg-research))
+
+16-week research internship (Derivalink, via Acensi) building an audited, from-scratch on-chain data pipeline across ~20 DeFi synthetic-asset protocols, then applying econometrics, machine learning, reinforcement learning and graph theory to how — and why — pegs fail. Twenty technical sub-reports plus one synthesis report, each backed by a full data audit and a pre-registered evaluation standard applied throughout — including a headline result that was internally audited and retracted, reported as plainly as the positive ones.
+
+- 📄 [Internship Report](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/internship_report/Internship_Report_Alexandre_Lemiere.pdf) — the synthesis (methodology, 4 research questions, findings, design recommendations)
+- Forensic replays of 3 real historical collapses: MakerDAO/SVB (Mar 2023), Terra/UST (May 2022), Iron Finance (Jun 2021)
+- A from-scratch DebtRank systemic-risk model, econometric causality testing, and an ML/RL early-warning pilot — with negative results reported as rigorously as positive ones
 
 ## Tech
 
