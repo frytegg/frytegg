@@ -10,9 +10,14 @@ Fintech engineering student at [ESILV](https://www.esilv.fr/) (Paris) — buildi
 
 16-week research internship (Derivalink, via Acensi) building an audited, from-scratch on-chain data pipeline across ~20 DeFi synthetic-asset protocols, then applying econometrics, machine learning, reinforcement learning and graph theory to how — and why — pegs fail. Twenty technical sub-reports plus one synthesis report, each backed by a full data audit and a pre-registered evaluation standard applied throughout — including a headline result that was internally audited and retracted, reported as plainly as the positive ones.
 
-- 📄 [Internship Report](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/internship_report/Internship_Report_Alexandre_Lemiere.pdf) — the synthesis (methodology, 4 research questions, findings, design recommendations)
-- Forensic replays of 3 real historical collapses: MakerDAO/SVB (Mar 2023), Terra/UST (May 2022), Iron Finance (Jun 2021)
-- A from-scratch DebtRank systemic-risk model, econometric causality testing, and an ML/RL early-warning pilot — with negative results reported as rigorously as positive ones
+**Featured reports:**
+- 📄 [Internship Report](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/internship_report/Internship_Report_Alexandre_Lemiere.pdf) — the synthesis: methodology, 4 research questions, findings, design recommendations
+- [MakerDAO — DAI](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/maker/dai/main.pdf) — survived March 2020 *and* March 2023 SVB; a 697bp oracle-vs-market gap invisible to a single oracle
+- [Iron Finance — IRON/TITAN](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/iron_finance/iron/main.pdf) — full forensic reconstruction of the June 2021 collapse (supply inflated ~335,000× in ~24h)
+- [Systemic-risk graph theory (S9)](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/graphs/s9_closing_report/main.pdf) — a from-scratch DebtRank model validated against 3 real historical collapses
+- [IV-smirk gate report (S8)](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/s8_iv_smirk/main.pdf) — the report with the retracted result: an audit found the exciting claim didn't hold up, so it was withdrawn
+
+→ [Full index of all 20 sub-reports](https://frytegg.github.io/defi-depeg-research/)
 
 ## Tech
 
@@ -50,7 +55,10 @@ Next steps: migrate to new 5-minute BTC Up/Down markets, finalize market making 
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [crypto-portfolio-management](https://github.com/frytegg/crypto-portfolio-management) | Multi-strategy crypto portfolio optimization dashboard — 7 allocation strategies, GJR-GARCH volatility, HMM regime detection, on-chain signals, walk-forward backtesting, real-time Binance prices | Python, Plotly Dash |
+| [inflexion](https://github.com/frytegg/inflexion) | Trustless, fully-collateralized on-chain market for Uniswap v3 impermanent-loss risk | Solidity, Stylus (Rust), Arbitrum |
 | [funding-engine](https://github.com/frytegg/funding-engine) | Delta-neutral funding rate arbitrage across CEX/DEX (Bybit, Hyperliquid) | TypeScript |
 | [blackjack-strategy-studio](https://github.com/frytegg/blackjack-strategy-studio) | Optimal blackjack strategy table generator with rules-aware engine | Python, React |
 | [ask-starknet-bot](https://github.com/frytegg/ask-starknet-bot) | Starknet Q&A bots for Telegram, Discord, and X using LangGraph + MCP | Python |
 | [rust-port-scanner](https://github.com/frytegg/rust-port-scanner) | Multi-threaded TCP port scanner | Rust |
+| [build-your-own-git](https://github.com/frytegg/build-your-own-git) | Minimal git implementation — init, hash-object, cat-file, ls-tree, write-tree, commit-tree (CodeCrafters challenge) | Rust |
