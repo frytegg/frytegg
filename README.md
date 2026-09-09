@@ -43,7 +43,7 @@ Arbitrage engine spanning Polymarket (CLOB, Polygon), Azuro V3 (LP-backed vAMM, 
 | Project | Event | Result | Description |
 |---------|-------|--------|-------------|
 | [agentfi](https://github.com/BuzzBallz/agentfi) | **ETHDenver 2026** | **2nd place** — 0G Best DeFAI, **3rd place** - ADI Chain | Multi-chain marketplace for autonomous AI agents as iNFTs (ERC-7857), with payments on ADI Chain and orchestration via Hedera |
-| [inflexion](https://github.com/frytegg/inflexion) | **Arbitrum Open House** | | Trustless, fully-collateralized on-chain market for Uniswap v3 impermanent-loss risk. Fair value priced on-chain via a closed-form Arbitrum Stylus (Rust) oracle; a cvAMM floor and competing market makers route to whichever is cheaper. Full stack: contracts, SDK, REST API, subgraph, frontend. My most-developed solo project — the one with the most real design work behind it. |
+| [inflexion](https://github.com/frytegg/inflexion) | **Arbitrum Open House 2026** | | Trustless, fully-collateralized on-chain market for Uniswap v3 impermanent-loss risk. Fair value priced on-chain via a closed-form Arbitrum Stylus (Rust) oracle; a cvAMM floor and competing market makers route to whichever is cheaper. Full stack: contracts, SDK, REST API, subgraph, frontend. My most-developed solo project — the one with the most real design work behind it. |
 | [sui-shield](https://github.com/frytegg/sui-shield) | EPFL SUI 2025 | | Decentralized gas fee insurance marketplace on Sui |
 | [tokena](https://github.com/frytegg/tokena) | XRPL Rome 2025 | **4th place** | XRPL multi-party token issuance & management |
 
