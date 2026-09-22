@@ -12,7 +12,7 @@ Fintech engineering student at [ESILV](https://www.esilv.fr/) (Paris) — buildi
 
 **Featured reports:**
 - 📄 [Internship Report](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/internship_report/Internship_Report_Alexandre_Lemiere.pdf) — the synthesis: methodology, 4 research questions, findings, design recommendations
-- [MakerDAO — DAI](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/maker/dai/main.pdf) — survived March 2020 *and* March 2023 SVB; a 697bp oracle-vs-market gap invisible to a single oracle
+- [MakerDAO — DAI](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/maker/dai/main.pdf) — survived March 2020 *and* March 2023 SVB; during SVB its oracle bottomed at $0.889 while DAI traded at $0.828 on Curve, a 600+ bp gap invisible to a single oracle
 - [Iron Finance — IRON/TITAN](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/iron_finance/iron/main.pdf) — full forensic reconstruction of the June 2021 collapse (supply inflated ~335,000× in ~24h)
 - [Systemic-risk graph theory (S9)](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/graphs/s9_closing_report/main.pdf) — a from-scratch DebtRank model validated against 3 real historical collapses
 - [IV-smirk gate report (S8)](https://raw.githubusercontent.com/frytegg/defi-depeg-research/main/reports/s8_iv_smirk/main.pdf) — the report with the retracted result: an audit found the exciting claim didn't hold up, so it was withdrawn
